@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "praat-sys",
+    "rustmouth",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Harry Woodhouse <jgf526@york.ac.uk>"]
+license = "GPL-3.0-or-later"
