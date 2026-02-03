@@ -1,0 +1,3 @@
+[submodule "praat-sys/praat-src"]
+	path = praat-sys/praat-src
+	url = https://github.com/praat/praat.git
