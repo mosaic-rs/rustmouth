@@ -3,6 +3,37 @@ name = "praat-sys"
 version = "0.0.1"
 edition = "2021"
 build = "build.rs"
+description = "Low-level Rust bindings for the Praat"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/mosaic-rs/RUSTMOUTH"
+readme = "../README.md"
+keywords = ["linguistics", "phonetics", "praat", "audio"]
+categories = ["science", "multimedia::audio"]
+
+# MOVE THIS HERE (Under [package], above [dependencies])
+exclude = [
+    "*.wav",
+    "*.pdf",
+    "manual/",
+    "test/",
+    "*.png",
+    "*.o",
+    "target/",
+]
+
+include = [
+    "src/**/*",
+    "praat-src/melder/**/*",
+    "praat-src/num/**/*",
+    "praat-src/stat/**/*",
+    "praat-src/sys/**/*",
+    "praat-src/fon/**/*",
+    "praat-src/LPC/**/*",
+    "praat-src/dwtools/**/*",
+    "praat-src/external/**/*",
+    "build.rs",
+    "Cargo.toml"
+]
 
 [dependencies]
 
