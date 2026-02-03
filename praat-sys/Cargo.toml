@@ -10,31 +10,31 @@ readme = "../README.md"
 keywords = ["linguistics", "phonetics", "praat", "audio"]
 categories = ["science", "multimedia::audio"]
 
-# MOVE THIS HERE (Under [package], above [dependencies])
-exclude = [
-    "*.wav",
-    "*.pdf",
-    "manual/",
-    "test/",
-    "*.png",
-    "*.o",
-    "target/",
-]
-
 include = [
     "src/**/*",
-    "praat-src/melder/**/*",
-    "praat-src/num/**/*",
-    "praat-src/stat/**/*",
-    "praat-src/sys/**/*",
-    "praat-src/fon/**/*",
-    "praat-src/LPC/**/*",
-    "praat-src/dwtools/**/*",
-    "praat-src/external/**/*",
     "build.rs",
-    "Cargo.toml"
+    "wrapper.hpp",
+    "Cargo.toml",
+    "README.md",
+    "LICENSE*",
+    
+    "praat-src/**/*.h",
+    "praat-src/**/*.hpp",
+    "praat-src/**/*.c", 
+    
+    "praat-src/melder/**/*.cpp",
+    "praat-src/num/**/*.cpp",
+    "praat-src/stat/**/*.cpp",
+    "praat-src/sys/**/*.cpp",
+    "praat-src/fon/**/*.cpp",
+    "praat-src/LPC/**/*.cpp",
+    "praat-src/dwtools/**/*.cpp",
+    "praat-src/kar/**/*.cpp",
+    "praat-src/external/gsl/**/*.cpp",
+    "praat-src/external/clapack/**/*.cpp",
+    "praat-src/external/gsl/**/*.c",
+    "praat-src/external/clapack/**/*.c",
 ]
-
 [dependencies]
 
 [build-dependencies]
