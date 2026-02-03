@@ -13,7 +13,7 @@ You should have received a copy of the GNU General Public License along with
 RUSTMOUTH. If not, see <https://www.gnu.org/licenses/>.
 */
 
-pub use praat_sys;
+use praat_sys;
 
 fn main() {
     println!("Initializing Rustmouth...");
