@@ -12,3 +12,20 @@ PURPOSE. See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License along with 
 RUSTMOUTH. If not, see <https://www.gnu.org/licenses/>.
 */
+
+use praat_sys;
+
+fn main() {
+    println!("Initializing Rustmouth...");
+
+    unsafe {
+        // Most Praat-sys builds need the Melder library started 
+        // to handle strings and memory properly.
+        // Replace 'Melder_init' with the specific init function in your headers.
+        // praat_sys::Melder_init(); 
+        
+        println!("Praat environment linked successfully");
+    }
+    
+    println!("FFI didn't segfault, yippeee");
+}
