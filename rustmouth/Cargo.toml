@@ -5,3 +5,7 @@ edition = "2024"
 
 [dependencies]
 praat-sys = { path = "../praat-sys" }
+
+[[bin]]
+name = "praat_test"
+path = "src/main.rs"
