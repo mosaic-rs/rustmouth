@@ -1,6 +1,6 @@
 # RUSTMOUTH
 ## Warning!
-Rust Mouth and its sub-systems (rustmouth and praat-sys) are very experimental and is in no way shape or form a stable product. Hopefully this will change.
+Rust Mouth and its sub-systems (rustmouth and praat-sys) are very experimental and is in no way shape or form a stable product. Hopefully this will change. Currently MacOS ONLY.
 
 ## What is rustmouth?
 Rustmouth is a praat API for Rust. It is being written primarily to support the MOSAIC project but it will also hopefully fill a large gap in methodology. 

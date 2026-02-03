@@ -1,3 +1,18 @@
+/*
+This file is part of RUSTMOUTH.
+
+RUSTMOUTH is free software: you can redistribute it and/or modify it under 
+the terms of the GNU General Public License as published by the Free 
+Software Foundation, either version 3 of the License, or any later version.
+
+RUSTMOUTH is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; 
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with 
+RUSTMOUTH. If not, see <https://www.gnu.org/licenses/>.
+*/
+
 use std::path::PathBuf;
 use std::env;
 
@@ -6,7 +21,9 @@ build.rs
 
 THIS ONLY WORKS ON MACOS ONLY (for now)
 
-We basically get a list of all the directories in the praat source code 
+Compiles praat into libpraat.a
+
+We then get the function names by crawling through the header files
 */
 
 fn main() {
