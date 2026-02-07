@@ -28,7 +28,7 @@ The groundwork for Windows and Linux are kind of there but they aren't complete
 */
 
 fn main() {
-    let base_dir = PathBuf::from("praat-src/praat.github.io"); // 
+    let base_dir = PathBuf::from("praat-src"); // 
     let target_os = env::var("CARGO_CFG_TARGET_OS").unwrap_or_else(|_| "macos".to_string());
 
     println!("cargo:warning=Full path to source: {:?}", base_dir);
@@ -158,7 +158,7 @@ fn main() {
         println!("cargo:rustc-link-lib=framework=CoreGraphics"); 
     }
 
-    println!("cargo:rerun-if-changed=praat-src/praat.github.io"); 
+    println!("cargo:rerun-if-changed=praat-src"); 
     println!("cargo:rerun-if-changed=wrapper.hpp");
     println!("cargo:rerun-if-changed=src/rustmouth_config.h");
 
