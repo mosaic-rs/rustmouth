@@ -1,0 +1,1 @@
+void rustmouth_fix_empty_archive() {}

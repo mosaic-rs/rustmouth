@@ -1,7 +1,0 @@
-pauseScript: "2a before"
-appendInfo: "2a "
-pauseScript: "2a after"
-runScript: "script2+.praat"
-pauseScript: "2b before"
-appendInfo: "2b "
-pauseScript: "2b after"

@@ -1,7 +1,0 @@
-appendInfoLine: "script 2a"
-appendInfoLine: "script 2b"
-appendInfoLine: "script 2c"
-runScript: "script3.praat"
-appendInfoLine: "script 2d"
-appendInfoLine: "script 2e"
-appendInfoLine: "script 2f"

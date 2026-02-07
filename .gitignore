@@ -2,3 +2,7 @@
 /praat-sys/target
 /rustmouth/target
 /target
+/rustmouth/src/test.wav
+/praat-sys/praat-src-2
+/praat-sys/praat-src-OLD
+TODO.txt

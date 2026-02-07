@@ -1,6 +1,0 @@
-appendInfoLine: "script 4a"
-appendInfoLine: "script 4b"
-appendInfoLine: "script 4c"
-appendInfoLine: "script 4d"
-appendInfoLine: "script 4e"
-appendInfoLine: "script 4f"
