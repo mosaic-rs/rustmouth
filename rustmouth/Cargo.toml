@@ -10,7 +10,7 @@ keywords = ["linguistics", "phonetics", "praat", "audio"]
 categories = ["science", "multimedia::audio"]
 
 [dependencies]
-praat-sys = { version = "0.1.1", path = "../praat-sys" }
+praat-sys = { version = "0.2.0", path = "../praat-sys" }
 
 [[bin]]
 name = "praat_test"
