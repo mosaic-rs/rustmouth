@@ -1,8 +1,11 @@
 # PRAAT-SYS
 Praat-sys is a low level linker which compiles a headless Praat. 
 
-## Warning!
-Though v0.1.0 is significantly more stable than 0.0.1, compiling a (more) stable headless Praat, it is still experimental. 
+## Version:
+v0.2.0
+
+I am confident in the stability of the praat/praat-sys bridge. 
+Windows/Linux support still in development.
 
 ## Supported OS:
 * Mac OS 11.0+ on x86 architecture (M1/M2/M3/M4/M5)
