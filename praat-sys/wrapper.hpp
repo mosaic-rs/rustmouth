@@ -38,6 +38,10 @@ extern "C" {
     void structVector_staticInit();
     void structSampled_staticInit();
     void structSound_staticInit();
+    struct structSound* rustmouth_Sound_create(
+        long long channels, double xmin, double xmax, 
+        long long nx, double dx, double x1
+    );
 }
 
 #endif
