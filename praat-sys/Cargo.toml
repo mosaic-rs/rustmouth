@@ -34,6 +34,7 @@ include = [
     "praat-src/external/clapack/**/*.cpp",
     "praat-src/external/gsl/**/*.c",
     "praat-src/external/clapack/**/*.c",
+    "praat-src/dwsys/**/*.cpp",
 ]
 [dependencies]
 
