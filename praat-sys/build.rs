@@ -58,6 +58,7 @@ fn main() {
     let mut build = cc::Build::new();
         build.cpp(true)
             .file("src/stubs.cpp")
+            .file("src/math_stubs.c")
             .std("c++17")
             .warnings(false)
             .define("Melder_IMPLEMENTATION", "1")
@@ -161,6 +162,7 @@ fn main() {
     println!("cargo:rerun-if-changed=praat-src"); 
     println!("cargo:rerun-if-changed=wrapper.hpp");
     println!("cargo:rerun-if-changed=src/rustmouth_config.h");
+    println!("cargo:rustc-link-arg=-Wl,-undefined,dynamic_lookup");
 
     let bindings = bindgen::Builder::default()
         .header("wrapper.hpp")
