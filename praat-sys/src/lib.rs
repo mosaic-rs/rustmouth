@@ -17,9 +17,13 @@ RUSTMOUTH. If not, see <https://www.gnu.org/licenses/>.
 #![allow(non_camel_case_types)]
 #![allow(non_snake_case)]
 
+#[cfg(not(doc))]
 include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
 
-#[cfg(test)]
+#[cfg(doc)]
+pub const DOCS_ONLY_PRAAT_SYS_IS_LOADED: bool = true;
+
+/*#[cfg(test)]
 mod tests {
     use super::*;
 
@@ -40,4 +44,4 @@ mod tests {
             println!("Linker successfully resolved Melder_play at {:?}", func_ptr);
         }
     }
-}
+}*/

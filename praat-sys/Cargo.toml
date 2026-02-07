@@ -1,6 +1,6 @@
 [package]
 name = "praat-sys"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 build = "build.rs"
 description = "Low-level Rust bindings for the Praat"
