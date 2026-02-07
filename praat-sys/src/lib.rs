@@ -45,3 +45,12 @@ mod tests {
         }
     }
 }*/
+
+
+extern "C" {
+    pub fn rustmouth_Sound_create(channels: i64, xmin: f64, xmax: f64, nx: i64, dx: f64, x1: f64) -> *mut structSound;
+
+    pub fn rustmouth_Sound_getSample(sound: *mut structSound, channel: i64, index: i64) -> f64;
+    
+    pub fn rustmouth_Sound_setSample(sound: *mut structSound, channel: i64, index: i64, value: f64);
+}
