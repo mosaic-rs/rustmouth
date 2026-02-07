@@ -19,10 +19,6 @@ fn main() {
     println!("Initializing Rustmouth...");
 
     unsafe {
-        // Most Praat-sys builds need the Melder library started 
-        // to handle strings and memory properly.
-        // Replace 'Melder_init' with the specific init function in your headers.
-        // praat_sys::Melder_init(); 
         
         println!("Praat environment linked successfully");
     }
